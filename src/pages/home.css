@@ -1,0 +1,39 @@
+header {
+    background-color: white;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    margin-left: 10px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.tableSec {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+table {
+    border-radius: 7px;
+    background-color: white;
+    border-collapse: collapse;
+    width: 70%;
+}
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: rgb(103, 195, 248);
+}
+tr:nth-child(even) {
+    background-color: rgb(247, 247, 247);
+}
